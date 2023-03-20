@@ -1,0 +1,33 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    top: 67px;
+    width: 90px;
+    background-color: white;
+    z-index: 100;
+}
+
+.sidebaricon {
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebaricon:hover {
+    background-color: lightgrey;
+}
+
+.sidebaricon img {
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebaricon div {
+    font-size: 10px;
+
+}
